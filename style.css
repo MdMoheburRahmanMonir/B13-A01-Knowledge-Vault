@@ -30,7 +30,7 @@ section {
 
 .btn:hover {
     color: white;
-    background-color:  #152637;
+    background-color: #152637;
 }
 
 /* Direct selection by tagName className idName etc. */
@@ -208,8 +208,9 @@ main {
 .card div {
     height: 60px;
     width: 60px;
-    background-color: #F95555; 
+    background-color: #F95555;
     position: relative;
+    margin-bottom: 16px;
     border-radius: 100px;
 }
 
@@ -218,10 +219,75 @@ main {
     height: 32px;
     top: 25%;
     left: 25%;
-    width: 32px; 
-    margin-bottom: 16px;
+    width: 32px;
 }
 
-.card div h3 {
+.card h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 24px;
+}
 
+.card p {
+    font-style: 20px;
+    font-weight: regular;
+    line-height: 20px;
+    color: #627382;
+}
+
+.section3 div {
+    width: 1360px;
+    display: flex;
+    gap: 60px;
+}
+
+.section3 div img {
+    height: 600px;
+    width: 600px;
+
+}
+
+.section3 div div {
+    display: block; 
+    
+}
+.section3 div div .firsparagroph {
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: medium;
+    margin-top: 102px;
+    margin-bottom: 16px;
+    
+    
+}
+.section3 div div h2 {
+    width: 700px;
+    height: 116px;
+    margin-bottom: 16px;
+    color: #001931;
+    font-weight: bold;
+    font-size: 48px;
+    
+}
+.section3 div div .secondparagroph {
+    width: 700px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.section3 div div ul {
+    list-style-type: none;
+}
+.section3 div div ul li{
+    margin: 16px 0;
+
+}
+.section3 div div ul li i{
+    background-color: white;
+    border-radius: 10px;
+    color: #469165;
 }
