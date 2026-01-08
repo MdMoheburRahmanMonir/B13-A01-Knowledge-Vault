@@ -325,3 +325,36 @@ main {
     font-size: 18px;
 }
 
+.footersection{
+    background-color: #001931;
+    height: 348px;
+    color: white; 
+}
+.footerdiv{ 
+    width: 1360px;  
+    display: flex;
+    margin: 120px 0;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.footerdiv img{ 
+    width: 139px;
+    height: 60px;
+
+}
+.footerinnerdiv h4{
+    margin-bottom: 10px;
+}
+.footerinnerdiv ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerinnerdiv ul li i{
+    height: 20px;
+    width: 20px;
+}
+.copyright{
+    margin-top: 230px;
+}
