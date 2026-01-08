@@ -1,0 +1,72 @@
+/* Individual Selection */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto; 
+  font-style: normal; 
+}
+body {
+    width: 1600px;
+}
+
+section {
+    width: 1360px;
+}
+.btn{
+    background-color: #469165;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: #469165;
+    background-color: #ddd2d293;
+}
+/* Direct selection by tagName className idName etc. */
+body .header {
+    display: flex;
+    justify-content: space-around;
+}
+
+body .header-section {
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body .header-section img {
+    height: 60px;
+    width: 139px;
+    margin: 16px 0;
+}
+
+body .header-section ul {
+    list-style: none;
+    display: flex;
+    width: 365px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+body .header-section ul li {
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 154%;
+    color: #000000;
+}
+body .header-section ul li:hover {
+    color: green;
+    background-color: #efe5e5;
+}
+body .header-section button {
+    height: 44px;
+    width: 164px;
+    margin: 24px 0;
+    border: none;
+    padding: 12.5px 16px;
+}
