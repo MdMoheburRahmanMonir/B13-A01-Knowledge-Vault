@@ -6,27 +6,33 @@
 }
 
 .open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto; 
-  font-style: normal; 
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 body {
     width: 1600px;
 }
 
 section {
-    width: 1360px;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
 }
-.btn{
+
+.btn {
     background-color: #469165;
     color: #FFFFFF;
     font-weight: 600;
     border-radius: 4px;
 }
-.btn:hover{
-    color: #469165;
-    background-color: #ddd2d293;
+
+.btn:hover {
+    color: white;
+    background-color:  #152637;
 }
+
 /* Direct selection by tagName className idName etc. */
 body .header {
     display: flex;
@@ -37,6 +43,7 @@ body .header-section {
     height: 92px;
     display: flex;
     justify-content: space-between;
+    width: 1360px;
 }
 
 body .header-section img {
@@ -53,20 +60,168 @@ body .header-section ul {
     align-items: center;
 
 }
+
 body .header-section ul li {
     font-size: 16px;
     font-weight: medium;
     line-height: 154%;
     color: #000000;
 }
+
 body .header-section ul li:hover {
     color: green;
     background-color: #efe5e5;
 }
+
 body .header-section button {
     height: 44px;
     width: 164px;
     margin: 24px 0;
     border: none;
     padding: 12.5px 16px;
+}
+
+main {
+    width: 1600px;
+}
+
+.section1 {
+    height: 674px;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.section1 div {
+    width: 1360px;
+    height: 379px;
+}
+
+.section1 div p:nth-child(1) {
+    height: 35px;
+    width: 229px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #469165;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+
+}
+
+.section1 div p:nth-child(1) i {
+    margin-right: 5px;
+}
+
+.section1 div h1 {
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    height: 168px;
+    opacity: 90%;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+.section1 div h1 span:nth-child(2) {
+    color: #469165;
+}
+
+.tryel {
+    width: 1360px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: regular;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.btn1 {
+    height: 52px;
+    width: 251px;
+}
+
+.btn1:hover {
+    background-color: #152637;
+}
+
+.btn2 {
+    color: white;
+    background-color: transparent;
+    height: 52px;
+    width: 198px;
+    border-radius: 5px;
+}
+
+.btn2:hover {
+    background-color: #469165;
+    color: white;
+}
+
+.section2div {
+    display: flex;
+    flex-direction: column;
+    height: 496px;
+    width: 1360px;
+    text-align: center;
+}
+
+.section2div div h1 {
+    padding-top: 30px;
+    width: 1360px;
+    align-items: bottom;
+    color: #001931;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.section2div div p {
+    font-weight: 16px;
+    line-height: 20px;
+    font-weight: regular;
+    color: #627382;
+}
+
+.card {
+    background-color: white;
+    padding: 20px 10px;
+    height: 300px;
+    width: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 6px -6px;
+}
+
+.cardParent {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.card div {
+    height: 60px;
+    width: 60px;
+    background-color: #F95555; 
+    position: relative;
+    border-radius: 100px;
+}
+
+.card div img {
+    position: absolute;
+    height: 32px;
+    top: 25%;
+    left: 25%;
+    width: 32px; 
+    margin-bottom: 16px;
+}
+
+.card div h3 {
+
 }
