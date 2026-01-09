@@ -105,15 +105,18 @@ main {
     width: 229px;
     margin: 0 auto;
     background-color: #fff;
-    color: #469165;
+    color: #6cb78b;
     padding: 5px;
     border-radius: 20px;
     margin-bottom: 16px;
-
+    
 }
 
 .section1 div p:nth-child(1) i {
+    border: 6px solid rgb(202, 224, 202);
     margin-right: 5px;
+    background-color: rgb(50, 146, 50);
+    border-radius: 20px;
 }
 
 .section1 div h1 {
